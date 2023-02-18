@@ -110,7 +110,7 @@ export default function Home() {
     ];
     return (
         <Container>
-            <ColumnWithImage alt="hero-picture" source={"/Capture.png"} />
+            <ColumnWithImage alt="hero-picture" source={"/Capture.jpg"} />
             <ColumnWithoutImage
                 buttonText={"Hello!"}
                 firstTitle={"I am"}
