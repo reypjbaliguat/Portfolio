@@ -35,7 +35,14 @@ export default function ColumnWithoutImage({
             </h2>
             {items.map((item) => (
                 <div className="flex items-center" key={item.text}>
-                    <>{item.icon} </>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="w-6 h-6 text-blue sm:mr-3 mr-4 my-2"
+                    >
+                        {item.icon}
+                    </svg>
                     <h3>{item.text} </h3>
                 </div>
             ))}

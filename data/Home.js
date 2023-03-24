@@ -1,4 +1,4 @@
-export const HomeData1 = [
+export const HomeItemsData1 = [
     {
         icon: (
             <svg
@@ -49,38 +49,24 @@ export const HomeData1 = [
     },
 ];
 
-export const HomeData2 = [
+export const HomeItemsData2 = [
     {
         icon: (
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6 text-blue sm:mr-3 mr-4 my-2"
-            >
-                <path
-                    fillRule="evenodd"
-                    d="M14.447 3.027a.75.75 0 01.527.92l-4.5 16.5a.75.75 0 01-1.448-.394l4.5-16.5a.75.75 0 01.921-.526zM16.72 6.22a.75.75 0 011.06 0l5.25 5.25a.75.75 0 010 1.06l-5.25 5.25a.75.75 0 11-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 010-1.06zm-9.44 0a.75.75 0 010 1.06L2.56 12l4.72 4.72a.75.75 0 11-1.06 1.06L.97 12.53a.75.75 0 010-1.06l5.25-5.25a.75.75 0 011.06 0z"
-                    clipRule="evenodd"
-                />
-            </svg>
+            <path
+                fillRule="evenodd"
+                d="M14.447 3.027a.75.75 0 01.527.92l-4.5 16.5a.75.75 0 01-1.448-.394l4.5-16.5a.75.75 0 01.921-.526zM16.72 6.22a.75.75 0 011.06 0l5.25 5.25a.75.75 0 010 1.06l-5.25 5.25a.75.75 0 11-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 010-1.06zm-9.44 0a.75.75 0 010 1.06L2.56 12l4.72 4.72a.75.75 0 11-1.06 1.06L.97 12.53a.75.75 0 010-1.06l5.25-5.25a.75.75 0 011.06 0z"
+                clipRule="evenodd"
+            />
         ),
         text: "I have 2 years React JS work experience.",
     },
     {
         icon: (
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6 text-blue sm:mr-3 mr-4 my-2"
-            >
-                <path
-                    fillRule="evenodd"
-                    d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z"
-                    clipRule="evenodd"
-                />
-            </svg>
+            <path
+                fillRule="evenodd"
+                d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z"
+                clipRule="evenodd"
+            />
         ),
         text: "I am currently studying AWS Web Services and Next JS.",
     },
@@ -103,3 +89,23 @@ export const HomeData2 = [
         text: "I am self-taught programmer.",
     },
 ];
+
+export const HomePageRowData1 = {
+    alt: "hero-picture",
+    source: "/Capture.jpg",
+    buttonText: "Hello!",
+    firstTitle: "I am",
+    secondTitle: "Rey PJ Baliguat.",
+    subTitle: "Junior Software Engineer",
+    items: HomeItemsData1,
+};
+
+export const HomePageRowData2 = {
+    alt: "skills-picture",
+    source: "/Skills.jpg",
+    buttonText: "What I can do?",
+    firstTitle: "I code ",
+    secondTitle: "MERN Stack.",
+    subTitle: "Mongo DB, Express, React JS, and Node JS",
+    items: HomeItemsData2,
+};
