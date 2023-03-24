@@ -12,7 +12,7 @@ export const BookingAppData = {
 
 export const GGTAppData = {
     imageLink: "https://pjtutorialbucket.s3.amazonaws.com/GGT.png",
-    imageSrc: "/work-projects/GGT.PNG",
+    imageSrc: "/work-projects/GGT.png",
     imageAlt: "GGT-picture",
     appName: "GGT App",
     technologyUsed:
