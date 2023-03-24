@@ -16,10 +16,12 @@ export default function Header() {
                     </div>
                     <div className="pr-4">
                         <Link
-                            href={"/works"}
+                            href={"/personal-projects"}
                             className="hover:text-blue hover:underline transition duration-300"
                         >
-                            <span className="text-1xl font-bold">Works</span>
+                            <span className="text-1xl font-bold">
+                                Personal Projects
+                            </span>
                         </Link>
                     </div>
                     <div>
@@ -28,7 +30,7 @@ export default function Header() {
                             className="hover:text-blue hover:underline transition duration-200"
                         >
                             <span className="text-1xl font-bold">
-                                Experience
+                                Work Experience
                             </span>
                         </Link>
                     </div>
