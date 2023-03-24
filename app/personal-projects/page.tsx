@@ -29,6 +29,7 @@ export default function page() {
                             href="https://api.quotable.io/random"
                             target="_blank"
                             className="text-blue"
+                            rel="noreferrer"
                         >
                             https://api.quotable.io/random
                         </a>
@@ -42,6 +43,7 @@ export default function page() {
                             href="https://api.quotable.io/random"
                             target="_blank"
                             className="text-blue"
+                            rel="noreferrer"
                         >
                             https://api.quotable.io/random
                         </a>
@@ -57,6 +59,7 @@ export default function page() {
                             href="https://typing-game-uwpt.vercel.app/"
                             target="_blank"
                             className="text-blue"
+                            rel="noreferrer"
                         >
                             https://typing-game-uwpt.vercel.app/
                         </a>
