@@ -1,6 +1,6 @@
 export const BookingAppData = {
     imageLink: "https://pjtutorialbucket.s3.amazonaws.com/booking-system.png",
-    imageSrc: "/work-projects/booking-system.PNG",
+    imageSrc: "/work-projects/booking-system.png",
     imageAlt: "booking-app-picture",
     appName: "Booking App",
     technologyUsed: "React JS, Redux, Ant Design, Node JS, and Koa Express",
