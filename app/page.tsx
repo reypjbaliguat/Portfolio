@@ -1,7 +1,7 @@
 import ColumnWithImage from "@/components/ColumnWithImage";
 import ColumnWithoutImage from "@/components/ColumnWithoutImage";
 import Container from "@/components/Container";
-import { HomeData1, HomeData2 } from "../data/Home";
+import { HomeData1, HomeData2 } from "@/data/Home";
 
 export default function Home() {
     const itemList1 = HomeData1;

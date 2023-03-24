@@ -24,8 +24,14 @@ export default function page() {
                 </div>
                 <div className="flex flex-col mt-4">
                     <h1 className="font-semibold text-2xl">Powered by:</h1>
-                    <h1 className="font-bold text-2xl text-blue">
-                        https://api.quotable.io/random
+                    <h1 className="font-bold text-1xl text-blue">
+                        <a
+                            href="https://api.quotable.io/random"
+                            target="_blank"
+                            className="text-blue"
+                        >
+                            https://api.quotable.io/random
+                        </a>
                     </h1>
                 </div>
                 <div className="flex flex-col mt-4">
@@ -40,7 +46,20 @@ export default function page() {
                             https://api.quotable.io/random
                         </a>
                         . Speed is calculated by dividing content length to
-                        average letter per word which is 4.7.
+                        average letter per word which is 4.7. Text/content is
+                        limited to 100 letters.
+                    </h1>
+                </div>
+                <div className="flex flex-col mt-4">
+                    <h1 className="font-semibold text-2xl">Link:</h1>
+                    <h1 className="font-bold text-2xl text-blue">
+                        <a
+                            href="https://typing-game-uwpt.vercel.app/"
+                            target="_blank"
+                            className="text-blue"
+                        >
+                            https://typing-game-uwpt.vercel.app/
+                        </a>
                     </h1>
                 </div>
             </HalfContainers>

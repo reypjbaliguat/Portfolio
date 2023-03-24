@@ -26,7 +26,7 @@ export default function Header() {
                     </div>
                     <div>
                         <Link
-                            href={"/experience"}
+                            href={"/work-experience"}
                             className="hover:text-blue hover:underline transition duration-200"
                         >
                             <span className="text-1xl font-bold">
