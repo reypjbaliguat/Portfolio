@@ -1,5 +1,4 @@
 import React from "react";
-import { EmptyStatement } from "typescript";
 import ColumnWithImage from "./ColumnWithImage";
 import HalfContainer from "./HalfContainer";
 

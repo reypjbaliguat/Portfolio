@@ -1,6 +1,9 @@
+"use client";
+
 import ColumnWithImage from "@/components/ColumnWithImage";
 import ColumnWithoutImage from "@/components/ColumnWithoutImage";
 import Container from "@/components/Container";
+import { HomeData1, HomeData2 } from "@/data/Home";
 
 export default function Home() {
     const itemList1 = [
@@ -115,7 +118,7 @@ export default function Home() {
                 firstTitle={"I am"}
                 secondTitle={"Rey PJ Baliguat."}
                 subTitle={"Junior Software Engineer"}
-                items={itemList1}
+                items={HomeData1}
             />
             <ColumnWithImage alt="skills-picture" source={"/Skills.jpg"} />
             <ColumnWithoutImage
@@ -123,7 +126,7 @@ export default function Home() {
                 firstTitle={"I code "}
                 secondTitle={"MERN Stack."}
                 subTitle={"Mongo DB, Express, React JS, and Node JS"}
-                items={itemList2}
+                items={HomeData2}
             />
         </Container>
     );
