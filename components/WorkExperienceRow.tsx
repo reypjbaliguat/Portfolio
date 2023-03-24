@@ -27,7 +27,7 @@ export default function WorkExperienceRow({
     return (
         <>
             <HalfContainer>
-                <a href={imageLink} target={"_blank"}>
+                <a href={imageLink} target={"_blank"} rel="noreferrer">
                     <ColumnWithImage source={imageSrc} alt={imageAlt} />
                 </a>
             </HalfContainer>
@@ -50,6 +50,7 @@ export default function WorkExperienceRow({
                                 href={paymentLink}
                                 className="text-blue"
                                 target={"_blank"}
+                                rel="noreferrer"
                             >
                                 {paymentName}
                             </a>
