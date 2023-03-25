@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 
-import ColumnWithImage from "@/components/ColumnWithImage";
-import ColumnWithoutImage from "@/components/ColumnWithoutImage";
+import ColumnWithImage from "./ColumnWithImage";
+import ColumnWithoutImage from "./ColumnWithoutImage";
 
 interface Item {
     text: string;
