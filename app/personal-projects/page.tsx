@@ -1,7 +1,9 @@
-import ColumnWithImage from "@/components/ColumnWithImage";
-import Container from "@/components/Container";
-import HalfContainers from "@/components/HalfContainer";
+import ColumnWithImage from "@/app/components/ColumnWithImage";
+import Container from "@/app/components/Container";
+import HalfContainers from "@/app/components/HalfContainer";
 import React from "react";
+import BouncingButton from "../components/BouncingButton";
+import DivWith4MarginTop from "../components/DivWith4MarginTop";
 
 export default function page() {
     return (
@@ -13,16 +15,15 @@ export default function page() {
                 />
             </HalfContainers>
             <HalfContainers>
-                <button className="bg-blue p-4 rounded animate-bounce">
-                    <h2 className="text-white font-semibold">Typing Game</h2>
-                </button>
-                <div className="flex flex-col mt-4">
-                    <h1 className="font-semibold text-2xl">Build using:</h1>
+                <BouncingButton buttonText={"Typing Game"} />
+
+                <DivWith4MarginTop>
+                    <h1 className="font-semibold text-2xl">Built using:</h1>
                     <h1 className="font-bold text-2xl text-blue">
                         Next JS, Typescript, Redux Toolkit, Tailwind CSS
                     </h1>
-                </div>
-                <div className="flex flex-col mt-4">
+                </DivWith4MarginTop>
+                <DivWith4MarginTop>
                     <h1 className="font-semibold text-2xl">Powered by:</h1>
                     <h1 className="font-bold text-1xl text-blue">
                         <a
@@ -34,8 +35,8 @@ export default function page() {
                             https://api.quotable.io/random
                         </a>
                     </h1>
-                </div>
-                <div className="flex flex-col mt-4">
+                </DivWith4MarginTop>
+                <DivWith4MarginTop>
                     <h1 className="font-semibold text-2xl">Description:</h1>
                     <h1 className="font-semibold italic text-1xl">
                         Typing game application which API is fetched from{" "}
@@ -51,8 +52,8 @@ export default function page() {
                         average letter per word which is 4.7. Text/content is
                         limited to 100 letters.
                     </h1>
-                </div>
-                <div className="flex flex-col mt-4">
+                </DivWith4MarginTop>
+                <DivWith4MarginTop>
                     <h1 className="font-semibold text-2xl">Link:</h1>
                     <h1 className="font-bold text-2xl text-blue">
                         <a
@@ -64,7 +65,7 @@ export default function page() {
                             https://typing-game-uwpt.vercel.app/
                         </a>
                     </h1>
-                </div>
+                </DivWith4MarginTop>
             </HalfContainers>
         </Container>
     );

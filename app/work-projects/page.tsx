@@ -2,8 +2,8 @@
 
 import React from "react";
 
-import Container from "@/components/Container";
-import WorkExperienceRow from "@/components/WorkExperienceRow";
+import Container from "@/app/components/Container";
+import WorkExperienceRow from "@/app/components/WorkProjectRow";
 import { BookingAppData, GGTAppData } from "@/data/WorkExperience";
 
 export default function page() {
