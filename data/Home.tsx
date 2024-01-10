@@ -68,7 +68,7 @@ export const HomeItemsData2 = [
         clipRule="evenodd"
       />
     ),
-    text: "I am currently studying AWS Web Services and Next JS.",
+    text: "I am currently studying Socket IO and JestJS for testing.",
   },
   {
     icon: (
