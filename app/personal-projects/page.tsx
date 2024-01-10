@@ -57,7 +57,7 @@ export default function page() {
           <h1 className="font-semibold text-2xl">Link:</h1>
           <h1 className="font-bold text-2xl text-blue">
             <a
-              href="https://typing-game-uwpt.vercel.app/"
+              href="https://typing-game-v2.vercel.app/"
               target="_blank"
               className="text-blue"
               rel="noreferrer"
