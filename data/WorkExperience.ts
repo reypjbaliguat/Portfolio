@@ -24,7 +24,7 @@ export const GGTAppData = {
 };
 
 export const IdCardData = {
-  imageLink: "https://imgur.com/a/qxfi49v",
+  imageLink: "https://imgur.com/NthO4FX",
   imageSrc: "/work-projects/IdCard.png",
   imageAlt: "Id Card-picture",
   appName: "Id Card Store",
