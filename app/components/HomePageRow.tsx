@@ -5,39 +5,39 @@ import ColumnWithImage from "./ColumnWithImage";
 import ColumnWithoutImage from "./ColumnWithoutImage";
 
 interface Item {
-    text: string;
-    icon: JSX.Element;
+  text: string;
+  icon: string;
 }
 
 interface HomePageRowData {
-    alt: string;
-    source: string;
-    buttonText: string;
-    firstTitle: string;
-    secondTitle: string;
-    subTitle: string;
-    items: Item[];
+  alt: string;
+  source: string;
+  buttonText: string;
+  firstTitle: string;
+  secondTitle: string;
+  subTitle: string;
+  items: Item[];
 }
 
 export default function HomePageRow({
-    alt,
-    source,
-    buttonText,
-    firstTitle,
-    secondTitle,
-    subTitle,
-    items,
+  alt,
+  source,
+  buttonText,
+  firstTitle,
+  secondTitle,
+  subTitle,
+  items,
 }: HomePageRowData) {
-    return (
-        <>
-            <ColumnWithImage alt={alt} source={source} />
-            <ColumnWithoutImage
-                buttonText={buttonText}
-                firstTitle={firstTitle}
-                secondTitle={secondTitle}
-                subTitle={subTitle}
-                items={items}
-            />
-        </>
-    );
+  return (
+    <>
+      <ColumnWithImage alt={alt} source={source} />
+      <ColumnWithoutImage
+        buttonText={buttonText}
+        firstTitle={firstTitle}
+        secondTitle={secondTitle}
+        subTitle={subTitle}
+        items={items}
+      />
+    </>
+  );
 }

@@ -5,7 +5,7 @@ import IconWithText from "./IconWithText";
 
 interface Item {
   text: string;
-  icon: JSX.Element;
+  icon: string;
 }
 
 interface data {
