@@ -14,10 +14,10 @@ import {
 export default function page() {
   return (
     <Container>
+      <WorkExperienceRow {...ZouqOnline} />
+      <WorkExperienceRow {...IdCardData} />
       <WorkExperienceRow {...BookingAppData} />
       <WorkExperienceRow {...GGTAppData} />
-      <WorkExperienceRow {...IdCardData} />
-      <WorkExperienceRow {...ZouqOnline} />
     </Container>
   );
 }
