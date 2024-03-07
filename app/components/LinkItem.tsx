@@ -1,25 +1,29 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import { usePathname } from "next/navigation";
 
 interface LinkItemProps {
-    withPaddingRight: boolean;
-    route: string;
-    text: string;
+  withPaddingRight: boolean;
+  route: string;
+  text: string;
 }
 
 export default function LinkItem({
-    withPaddingRight,
-    route,
-    text,
+  withPaddingRight,
+  route,
+  text,
 }: LinkItemProps) {
-    return (
-        <div className={`${withPaddingRight && "pr-4"}`}>
-            <Link
-                href={route}
-                className="hover:text-blue hover:underline transition duration-300"
-            >
-                <span className="text-1xl font-bold">{text}</span>
-            </Link>
-        </div>
-    );
+  const pathname = usePathname();
+  return (
+    <div className={`${withPaddingRight && "pr-4"}`}>
+      <Link
+        href={route}
+        className={`hover:text-blue hover:underline transition duration-300 ${
+          pathname === route && "text-blue underline"
+        }`}
+      >
+        <span className="text-1xl font-bold">{text}</span>
+      </Link>
+    </div>
+  );
 }
