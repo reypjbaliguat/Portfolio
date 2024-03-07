@@ -35,3 +35,15 @@ export const IdCardData = {
   paymentLink: "",
   paymentName: "",
 };
+
+export const ZouqOnline = {
+  imageLink: "https://i.imgur.com/i36jHkE.png",
+  imageSrc: "https://i.imgur.com/i36jHkE.png",
+  imageAlt: "Zouq Online PH",
+  appName: "Zouq Online PH",
+  technologyUsed: "React JS,Redux/Redux Toolkit, Material UI",
+  description:
+    "This store has 3 systems, Admin Web Panel, App, and Customer Website where they can buy the products. This is a halal market place. Please visit our store ",
+  paymentLink: "https://www.zouq.online/",
+  paymentName: "Zouq Online PH",
+};
