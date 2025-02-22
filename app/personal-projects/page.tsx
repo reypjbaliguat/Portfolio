@@ -15,7 +15,7 @@ export default function page() {
         />
       </HalfContainers>
       <HalfContainers>
-        <BouncingButton buttonText={"Typing Game"} />
+        <BouncingButton buttonText={"Template"} />
 
         <DivWith4MarginTop>
           <h1 className="font-semibold text-2xl">Built using:</h1>
