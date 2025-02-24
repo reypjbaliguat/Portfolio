@@ -113,7 +113,7 @@ export default function page() {
           <h1 className="font-semibold text-2xl">
             Link:{" "}
             <a
-              href="https://template-client-psi.vercel.app/"
+              href="https://typing-game-v2.vercel.app/"
               target="_blank"
               className="text-blue text-xl"
               rel="noreferrer"
