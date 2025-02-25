@@ -30,7 +30,7 @@ export const HomeItemsData1 = [
 export const HomeItemsData2 = [
   {
     icon: mdiBriefcase,
-    text: "I have 3 years React JS work experience.",
+    text: "I have 4 years React JS work experience.",
   },
   {
     icon: mdiBookOpenVariantOutline,
