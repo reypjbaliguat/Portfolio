@@ -48,7 +48,7 @@ export const HomePageRowData1 = {
   buttonText: "Hello!",
   firstTitle: "I am",
   secondTitle: "Rey PJ Baliguat.",
-  subTitle: "Junior Software Engineer",
+  subTitle: "Fullstack Developer",
   items: HomeItemsData1,
 };
 
