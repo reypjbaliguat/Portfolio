@@ -29,6 +29,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.1.6
     version: 13.1.6(eslint@8.34.0)(typescript@4.9.5)
+  gsap:
+    specifier: ^3.12.7
+    version: 3.12.7
   next:
     specifier: 13.1.6
     version: 13.1.6(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)
@@ -2649,6 +2652,10 @@ packages:
 
   /grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
+    dev: false
+
+  /gsap@3.12.7:
+    resolution: {integrity: sha512-V4GsyVamhmKefvcAKaoy0h6si0xX7ogwBoBSs2CTJwt7luW0oZzC0LhdkyuKV8PJAXr7Yaj8pMjCKD4GJ+eEMg==}
     dev: false
 
   /has-bigints@1.0.2:
