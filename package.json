@@ -10,6 +10,7 @@
         "test": "jest --watch"
     },
     "dependencies": {
+        "@gsap/react": "^2.1.2",
         "@mdi/js": "^7.4.47",
         "@mdi/react": "^1.6.1",
         "@next/font": "13.1.6",

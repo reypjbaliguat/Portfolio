@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@gsap/react':
+    specifier: ^2.1.2
+    version: 2.1.2(gsap@3.12.7)(react@18.2.0)
   '@mdi/js':
     specifier: ^7.4.47
     version: 7.4.47
@@ -420,6 +423,16 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@gsap/react@2.1.2(gsap@3.12.7)(react@18.2.0):
+    resolution: {integrity: sha512-JqliybO1837UcgH2hVOM4VO+38APk3ECNrsuSM4MuXp+rbf+/2IG2K1YJiqfTcXQHH7XlA0m3ykniFYstfq0Iw==}
+    peerDependencies:
+      gsap: ^3.12.5
+      react: '>=17'
+    dependencies:
+      gsap: 3.12.7
+      react: 18.2.0
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
