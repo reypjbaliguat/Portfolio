@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  user-select: none;
-}
 
 /* width */
 ::-webkit-scrollbar {
