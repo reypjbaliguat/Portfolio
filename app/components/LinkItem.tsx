@@ -26,14 +26,14 @@ export default function LinkItem({ route, text }: LinkItemProps) {
   const activeLinkGsap = {
     boxShadow: "inset 200px 0 0 0 rgb(14 165 233)",
     color: "#fff",
-    duration: 0.3,
+    duration: 0.2,
     ease: "power2.out",
   };
 
   const inactiveLinkGsap = {
     boxShadow: "inset 0 0 0 0 rgb(14 165 233)",
     color: "black",
-    duration: 0.3,
+    duration: 0.2,
     ease: "power2.in",
   };
 

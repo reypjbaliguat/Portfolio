@@ -11,7 +11,7 @@ export default function Header() {
     () => {
       gsap.to(".link-item", {
         stagger: {
-          amount: 1,
+          amount: 0.2,
           from: "random",
         },
         opacity: 1,

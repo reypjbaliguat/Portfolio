@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 
 import ColumnWithImage from "./ColumnWithImage";
 import ColumnWithoutImage from "./ColumnWithoutImage";

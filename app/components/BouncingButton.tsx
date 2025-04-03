@@ -1,13 +1,15 @@
-import React from "react";
-
 interface BouncingButtonProps {
-    buttonText: string;
+  buttonText: string;
+  className?: string;
 }
 
-export default function BouncingButton({ buttonText }: BouncingButtonProps) {
-    return (
-        <button className="bg-blue p-4 rounded animate-bounce">
-            <h2 className="text-white font-semibold">{buttonText}</h2>
-        </button>
-    );
+export default function BouncingButton({
+  buttonText,
+  className,
+}: BouncingButtonProps) {
+  return (
+    <button className={`bg-blue p-4 rounded animate-bounce ${className}`}>
+      <h2 className="text-white font-semibold">{buttonText}</h2>
+    </button>
+  );
 }
