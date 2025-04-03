@@ -1,11 +1,21 @@
+"use client";
+
 import ColumnWithImage from "@/app/components/ColumnWithImage";
 import Container from "@/app/components/Container";
 import HalfContainers from "@/app/components/HalfContainer";
-import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import BouncingButton from "../components/BouncingButton";
 import DivWith4MarginTop from "../components/DivWith4MarginTop";
 
-export default function page() {
+export default function Page() {
+  useGSAP(() => {
+    gsap.to(".cwiElement", {
+      stagger: 0.2,
+      opacity: 1,
+      ease: "power2.inOut",
+    });
+  });
   return (
     <Container>
       <HalfContainers>
@@ -15,18 +25,25 @@ export default function page() {
         />
       </HalfContainers>
       <HalfContainers>
-        <BouncingButton buttonText={"Template"} />
+        <BouncingButton
+          buttonText={"Template"}
+          className="cwiElement opacity-0"
+        />
 
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">Built using:</h1>
-          <h1 className="font-bold text-2xl text-blue">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Built using:
+          </h1>
+          <h1 className="font-bold text-2xl text-blue cwiElement opacity-0">
             React JS, MUI, Mongo DB, GraphQL, Prisma and Node
           </h1>
         </DivWith4MarginTop>
 
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">Description:</h1>
-          <h1 className="font-semibold italic text-1xl">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Description:
+          </h1>
+          <h1 className="font-semibold italic text-1xl cwiElement opacity-0">
             ReplySaver is a simple yet powerful web tool designed to store and
             organize email replies for quick access. With an intuitive
             interface, you can save commonly used responses and retrieve them
@@ -34,8 +51,10 @@ export default function page() {
             button, allowing you to paste responses effortlessly into your
             emails with just one click. Key Features:
           </h1>
-          <h1 className="font-semibold text-2xl">Key Features:</h1>
-          <div className="flex flex-col gap-y-2 mt-2">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Key Features:
+          </h1>
+          <div className="flex flex-col gap-y-2 mt-2 cwiElement opacity-0">
             <span>
               ✅ Save & Organize – Store frequently used email replies in one
               place.
@@ -51,7 +70,7 @@ export default function page() {
           </div>
         </DivWith4MarginTop>
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
             Link:{" "}
             <a
               href="https://template-client-psi.vercel.app/"
@@ -71,18 +90,25 @@ export default function page() {
         />
       </HalfContainers>
       <HalfContainers>
-        <BouncingButton buttonText={"Typing Game"} />
+        <BouncingButton
+          buttonText={"Typing Game"}
+          className="cwiElement opacity-0"
+        />
 
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">Built using:</h1>
-          <h1 className="font-bold text-2xl text-blue">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Built using:
+          </h1>
+          <h1 className="font-bold text-2xl text-blue cwiElement opacity-0">
             Next JS, Typescript, Redux Toolkit, Tailwind CSS, RTK Query,
             Node/Express and Mongo DB
           </h1>
         </DivWith4MarginTop>
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">Powered by:</h1>
-          <h1 className="font-bold text-1xl text-blue">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Powered by:
+          </h1>
+          <h1 className="font-bold text-1xl text-blue cwiElement opacity-0">
             <a
               href="https://api.quotable.io/random"
               target="_blank"
@@ -94,8 +120,10 @@ export default function page() {
           </h1>
         </DivWith4MarginTop>
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">Description:</h1>
-          <h1 className="font-semibold italic text-1xl">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
+            Description:
+          </h1>
+          <h1 className="font-semibold italic text-1xl cwiElement opacity-0">
             Typing game application which API is fetched from{" "}
             <a
               href="https://api.quotable.io/random"
@@ -110,7 +138,7 @@ export default function page() {
           </h1>
         </DivWith4MarginTop>
         <DivWith4MarginTop>
-          <h1 className="font-semibold text-2xl">
+          <h1 className="font-semibold text-2xl cwiElement opacity-0">
             Link:{" "}
             <a
               href="https://typing-game-v2.vercel.app/"
